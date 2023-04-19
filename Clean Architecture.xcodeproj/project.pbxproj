@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C333A9429F0B58E0077779E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C7F70BF29EFE1850006D114 /* Clean Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7F70C229EFE1850006D114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C7F70C429EFE1850006D114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 		2C7F70FA29EFE5980006D114 /* 3부. 설계 원칙 */ = {
 			isa = PBXGroup;
 			children = (
+				2C333A9429F0B58E0077779E /* README.md */,
 			);
 			name = "3부. 설계 원칙";
 			path = "3부. 설계 원칙";
