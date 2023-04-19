@@ -70,6 +70,7 @@ let arr: [Int] = Array(0..<25)
 arr.forEach { num in
   print(num * num)
 }
+```
 
 Thread를 고려할 때, 경합조건(race), 교착상태(deadLock), 동시 업데이트(concurrent update) 문제는 모두 가변 변수로 인해 발생한다. 앱의 동시성 즉, 다수의 쓰레드와 프로세스를 사용하는 앱에서 마주치는 모든 문제는 가변 변수가 없다면 절대로 생기지 않는다. 이에 동시성(concurrent)문제에 관심을 가져야 한다.
 
