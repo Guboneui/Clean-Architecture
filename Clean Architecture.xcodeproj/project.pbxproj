@@ -25,6 +25,7 @@
 		2C7F70CE29EFE1860006D114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C7F70D029EFE1860006D114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C7F70FE29EFE63D0006D114 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C7F70FF29EFFB2C0006D114 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		2C7F70F929EFE5820006D114 /* 2부. 벽돌부터 시작하기 - 프로그래밍 패러다임 */ = {
 			isa = PBXGroup;
 			children = (
+				2C7F70FF29EFFB2C0006D114 /* README.md */,
 			);
 			name = "2부. 벽돌부터 시작하기 - 프로그래밍 패러다임";
 			path = "2부. 벽돌부터 시작하기 - 프로그래밍 패러다임";
