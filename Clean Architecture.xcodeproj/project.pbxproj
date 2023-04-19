@@ -24,7 +24,7 @@
 		2C7F70CB29EFE1860006D114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C7F70CE29EFE1860006D114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C7F70D029EFE1860006D114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C7F70FE29EFE63D0006D114 /* 1. 설계와 아키텍처.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "1. 설계와 아키텍처.md"; sourceTree = "<group>"; };
+		2C7F70FE29EFE63D0006D114 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		2C7F70F829EFE5750006D114 /* 1부. 소개 */ = {
 			isa = PBXGroup;
 			children = (
-				2C7F70FE29EFE63D0006D114 /* 1. 설계와 아키텍처.md */,
+				2C7F70FE29EFE63D0006D114 /* README.md */,
 			);
 			name = "1부. 소개";
 			path = "1부. 소개";
