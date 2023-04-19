@@ -56,6 +56,7 @@
 		2C7F70C129EFE1850006D114 /* Clean Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				2C7F70F729EFE5280006D114 /* 목차 */,
 				2C7F70C229EFE1850006D114 /* AppDelegate.swift */,
 				2C7F70C429EFE1850006D114 /* SceneDelegate.swift */,
 				2C7F70C629EFE1850006D114 /* ViewController.swift */,
@@ -65,6 +66,68 @@
 				2C7F70D029EFE1860006D114 /* Info.plist */,
 			);
 			path = "Clean Architecture";
+			sourceTree = "<group>";
+		};
+		2C7F70F729EFE5280006D114 /* 목차 */ = {
+			isa = PBXGroup;
+			children = (
+				2C7F70F829EFE5750006D114 /* 1부. 소개 */,
+				2C7F70F929EFE5820006D114 /* 2부. 벽돌부터 시작하기 - 프로그래밍 패러다임 */,
+				2C7F70FA29EFE5980006D114 /* 3부. 설계 원칙 */,
+				2C7F70FB29EFE5A10006D114 /* 4부. 컴포넌트 원칙 */,
+				2C7F70FC29EFE5AC0006D114 /* 5부. 아키텍처 */,
+				2C7F70FD29EFE5B20006D114 /* 6부. 세부사항 */,
+			);
+			name = "목차";
+			path = "목차";
+			sourceTree = "<group>";
+		};
+		2C7F70F829EFE5750006D114 /* 1부. 소개 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "1부. 소개";
+			path = "1부. 소개";
+			sourceTree = "<group>";
+		};
+		2C7F70F929EFE5820006D114 /* 2부. 벽돌부터 시작하기 - 프로그래밍 패러다임 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "2부. 벽돌부터 시작하기 - 프로그래밍 패러다임";
+			path = "2부. 벽돌부터 시작하기 - 프로그래밍 패러다임";
+			sourceTree = "<group>";
+		};
+		2C7F70FA29EFE5980006D114 /* 3부. 설계 원칙 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "3부. 설계 원칙";
+			path = "3부. 설계 원칙";
+			sourceTree = "<group>";
+		};
+		2C7F70FB29EFE5A10006D114 /* 4부. 컴포넌트 원칙 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "4부. 컴포넌트 원칙";
+			path = "4부. 컴포넌트 원칙";
+			sourceTree = "<group>";
+		};
+		2C7F70FC29EFE5AC0006D114 /* 5부. 아키텍처 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "5부. 아키텍처";
+			path = "5부. 아키텍처";
+			sourceTree = "<group>";
+		};
+		2C7F70FD29EFE5B20006D114 /* 6부. 세부사항 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "6부. 세부사항";
+			path = "6부. 세부사항";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
