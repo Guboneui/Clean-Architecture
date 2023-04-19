@@ -44,10 +44,10 @@
 의존성 역전
 전형적인 호출 트리의 경우 main함수가 고수준 함수를 호출하고, 고수준 함수는 다시 중간 수준 함수를 호출하며, 중간 수준 함수는 다시 저수는 함수를 호출한다. 이에 아래와 같은 소스코드 의존성과 제어흐름을 가진다.
 
-![IMG_0211](https://user-images.githubusercontent.com/73548875/233061103-f4daa13c-ba89-40e1-b656-2c8cc6bb2efc.jpeg)
+![IMG_0213](https://user-images.githubusercontent.com/73548875/233068081-9b2472de-2809-4723-8c52-ea629dee96f8.jpeg)
 
 하지만, 다형성을 사용한다면 소스 코드에서는 HL1 모듈은 인터페이스(swift에서는 protocol)을 통해 F()함수를 호출한다. 이 인터페이스는 런타임에는 존재하지 않은다. HL1은 단순히 ML1 모듈의 함수 F()를 호출할 뿐이다. 예시는 아래와 같다.
-![IMG_0212](https://user-images.githubusercontent.com/73548875/233061132-7dad96a0-ec28-4a97-a2b4-8ab0a578b0f3.jpeg)
+![IMG_0212](https://user-images.githubusercontent.com/73548875/233068354-95912e72-1502-4c01-b28f-1a8fea196e77.jpeg)
 
 이처럼 다형성을 이용하면 소스 코드 의존성(상속 관계)이 제어흐름과는 반대가 된다. 즉, 소스 코드 의존성이 제어흐름의 방향과 일치되도록 제한되지 않는다.
 
