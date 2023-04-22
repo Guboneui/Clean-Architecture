@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0F7CCB29F4037C004F8E31 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C333A9429F0B58E0077779E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C7F70BF29EFE1850006D114 /* Clean Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7F70C229EFE1850006D114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 		2C7F70FB29EFE5A10006D114 /* 4부. 컴포넌트 원칙 */ = {
 			isa = PBXGroup;
 			children = (
+				2C0F7CCB29F4037C004F8E31 /* README.md */,
 			);
 			name = "4부. 컴포넌트 원칙";
 			path = "4부. 컴포넌트 원칙";
