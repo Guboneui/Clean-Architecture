@@ -230,46 +230,7 @@ class User3 {
 ```
 위 코드에서 User1은 op2, op3을 전혀 호출하지 않지만, 두 메서드에 의존하게 된다. 이러한 의존성으로 인해 OPS 클래스에서 op2의 소스코드가 변경되면 User1도 다시 컴파일 후 새로 배포해야 한다. 
 
-
-``` swift
-protocol U1Ops {
-  func op1()
-}
-
-protocol U2Ops {
-  func op2()
-}
-
-protocol U3Ops {
-  func op3()
-}
-
-class OPS: U1Ops, U2Ops, U3Ops {
-  func op1() { }
-  func op2() { }
-  func op3() { }
-}
-
-class User1: U1Ops {
-  init(ops: U1Ops) {
-    ops.op1()
-  }
-}
-
-class User2 {
-  init(ops: U2Ops) {
-    ops.op2()
-  }
-}
-
-class User3 {
-  init(ops: U3Ops) {
-    ops.op3()
-  }
-}
-```
-
-위의 코드처럼 바꾸게 된다면, User1의 코드는 U1Ops와 op1에 의존하지만 OPS에는 의존하지 않게 된다. 따라서 OPS에서 발생한 변경이 User1과는 전혀 관계없는 변경이라면, User1을 다시 컴파일하고 새로 배포하는 상황은 초래되지 않는다. 
+이를 바꾸게 된다면, User1의 코드는 U1Ops와 op1에 의존하지만 OPS에는 의존하지 않게 된다. 따라서 OPS에서 발생한 변경이 User1과는 전혀 관계없는 변경이라면, User1을 다시 컴파일하고 새로 배포하는 상황은 초래되지 않는다. 
 
 `인터페이스 분리 원칙`을 사용하는 근본적인 이유는 필요 이상으로 많은 걸 포함하는 모듈에 의존하는 것은 해롭기 때문이다. 소스 코드 의존성의 경우 불필요한 재컴파일과 재배포를 강제하기 때문이다. 
 
